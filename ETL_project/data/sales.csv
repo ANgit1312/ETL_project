@@ -1,0 +1,6 @@
+order_id,customer,product,quantity,price,order_date
+1001,John Doe,MacBook Air,1,999.99,2025-08-01
+1002,Jane Smith,iPhone 15,2,1299.99,2025-08-02
+1003,Alex Johnson,iPad Pro,1,799.99,2025-08-03
+1004,Sarah Lee,Apple Watch,3,399.99,2025-08-03
+1005,Michael Brown,AirPods Pro,2,249.99,2025-08-04
