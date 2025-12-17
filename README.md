@@ -13,7 +13,7 @@ The data can then be visualized in **PowerBI** or **Streamlit** dashboards for b
     - Simulated streaming transactions
 - Data cleaning & transformation with **Pandas**
 - Relational storage in **PostgreSQL**
-- Modular design with separate `ingest`, `transform`, `load` steps
+- Modular design with separate `extract`, `transform`, `load` steps
 - Configurable database connection via `config.py`
 - Ready for orchestration (can be extended with **Apache Airflow**)
 
@@ -25,7 +25,7 @@ etl_project/
 │ └── etl/
 │ ├── init.py
 │ ├── config.py
-│ ├── ingest.py
+│ ├── extract.py
 │ ├── transform.py
 │ ├── load.py
 │ └── pipeline.py
@@ -84,6 +84,7 @@ docker compose up -d
 From project root, run:
 
 python -m src.etl.pipeline
+
 
 
 
