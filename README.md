@@ -86,10 +86,4 @@ From project root, run:
 python -m src.etl.pipeline
 
 
-Expected output:
 
- Starting ETL pipeline...
-✅ Loaded X rows into 'csv_sales'
-✅ Loaded Y rows into 'api_products'
-✅ Loaded Z rows into 'stream_sales'
- ETL pipeline executed successfully!
